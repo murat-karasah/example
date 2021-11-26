@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ortalama", "ortalama\ortala
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch_ex", "switch\switch_ex.csproj", "{513710AD-AF31-4C8B-9B82-A378766619C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dortislem", "dortislem\dortislem.csproj", "{C163E8A4-15C1-4419-985B-ACF675D52EB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{513710AD-AF31-4C8B-9B82-A378766619C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{513710AD-AF31-4C8B-9B82-A378766619C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{513710AD-AF31-4C8B-9B82-A378766619C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C163E8A4-15C1-4419-985B-ACF675D52EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C163E8A4-15C1-4419-985B-ACF675D52EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C163E8A4-15C1-4419-985B-ACF675D52EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C163E8A4-15C1-4419-985B-ACF675D52EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
