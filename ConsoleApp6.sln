@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp6", "ConsoleApp6\ConsoleApp6.csproj", "{15D1F353-E3E3-4A61-9991-E08F15F74397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp6", "ConsoleApp6\ConsoleApp6.csproj", "{15D1F353-E3E3-4A61-9991-E08F15F74397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degiskenler", "degiskenler\degiskenler.csproj", "{218343ED-9F90-4785-A344-326A26D22E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "degiskenler", "degiskenler\degiskenler.csproj", "{218343ED-9F90-4785-A344-326A26D22E94}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "global-local", "global-local\global-local.csproj", "{EEAB553A-CA92-475A-896B-9406E1A42126}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru1-2-3", "soru1-2-3\soru1-2-3.csproj", "{CB355219-854A-422E-802E-DBBBC9EBCAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "soru1-2-3", "soru1-2-3\soru1-2-3.csproj", "{CB355219-854A-422E-802E-DBBBC9EBCAD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degisimForm", "degisimForm\degisimForm.csproj", "{C95AE80A-A5D4-4F17-AA82-9E585FE4217D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operatorler", "operatorler\operatorler.csproj", "{A66C27E9-FE1C-481A-8B7E-1402D9E487D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operatorler", "operatorler\operatorler.csproj", "{A66C27E9-FE1C-481A-8B7E-1402D9E487D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ortalama", "ortalama\ortalama.csproj", "{D4F68269-31AF-48E8-824F-BB931A0CA2F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ortalama", "ortalama\ortalama.csproj", "{D4F68269-31AF-48E8-824F-BB931A0CA2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch_ex", "switch\switch_ex.csproj", "{513710AD-AF31-4C8B-9B82-A378766619C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D4F68269-31AF-48E8-824F-BB931A0CA2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F68269-31AF-48E8-824F-BB931A0CA2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F68269-31AF-48E8-824F-BB931A0CA2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513710AD-AF31-4C8B-9B82-A378766619C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513710AD-AF31-4C8B-9B82-A378766619C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513710AD-AF31-4C8B-9B82-A378766619C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513710AD-AF31-4C8B-9B82-A378766619C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
