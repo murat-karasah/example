@@ -7,8 +7,8 @@ namespace dortislem
        
         static void Main(string[] args)
         {
-            Console.WriteLine("Lütfen İşlem Seçiniz :\n1-Toplama\n2-Çıkartma\n3-Bölme\n4-Çarpma \nYapmak istediğiniz işlemin kodunu giriniz...");
-            string enter = Console.ReadLine();
+            Console.WriteLine("Lütfen İşlem Seçiniz :\n+\n-\n/\n* \nYapmak istediğiniz işlemin kodunu giriniz...");
+            char enter = Convert.ToChar(Console.ReadLine());
             Console.Clear();
             Console.WriteLine("1.Sayı : ");
             int sayi1 = Convert.ToInt32(Console.ReadLine());
@@ -17,28 +17,26 @@ namespace dortislem
             Console.Clear();
             switch (enter)
             {
-                case "1":
+                case '+':
                     int toplama = sayi1 + sayi2;
                     Console.WriteLine("Sonuç : " +toplama);
                     break;
-                case "2":
+                case '-':
                     int cikartma = sayi1 -sayi2;
                     Console.WriteLine("Sonuç : " + cikartma);
                     break;
-                case "3":
+                case '/':
                     if (sayi2==0)
                     {
                         Console.WriteLine("Hat");
-
                     }
                     else
                     {
                         int bolme = sayi1 / sayi2;
                         Console.WriteLine("Sonuç : " + bolme);
                     }
-                    
                     break;
-                case "4":
+                case '*':
                     int carpma = sayi1*sayi2;
                     Console.WriteLine("Sonuç : " + carpma);
                     break;
