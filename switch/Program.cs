@@ -10,6 +10,24 @@ namespace switch_ex
             string  enter = Console.ReadLine();
             switch (enter)
             {
+                case "1": 
+                case "2":
+                case "3": 
+                case "4": Console.WriteLine("1.Faz"); break;
+                case "5": 
+                case "6": 
+                case "7": 
+                case "8": Console.WriteLine("2.Faz"); break;
+                case "9": 
+                case "10": 
+                case "11": 
+                case "12": Console.WriteLine("3.Faz"); break;
+                default:
+                    hata();
+                    break;
+            }
+            switch (enter)
+            {
                 case "1":Console.WriteLine("ocak"); break;
                 case "2": Console.WriteLine("şubat"); break;
                 case "3": Console.WriteLine("mart"); break;
@@ -23,10 +41,15 @@ namespace switch_ex
                 case "11": Console.WriteLine("kasım"); break;
                 case "12": Console.WriteLine("aralık"); break;
                 default:
-                    Console.WriteLine("lütfen geçerli bir sayı giriniz 1-12");
-                    Main(null);
+
                     break;
             }
         }
-}
+
+        private static void hata()
+        {
+            Console.WriteLine("lütfen geçerli bir sayı giriniz 1-12");
+            Main(null);
+        }
+    }
 }
